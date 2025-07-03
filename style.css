@@ -36,15 +36,41 @@ body {
     font-size: 1.25rem;
     font-weight: 600;
     border: none !important;
+    margin-left: 10px;
 }
 
 .card-body {
     color: #D2D5DA !important;
     font-size: 1rem;
     font-weight: 400;
+    margin-left: 10px;
 }
 
 .image {
     width: 100%;
     height: auto;
+}
+
+.icon1 {
+    background-color: #FCEED8;
+    border-radius: 50%;
+    width: fit-content;
+}
+
+.icon2 {
+    background-color: #DEE9FC;
+    border-radius: 50%;
+    width: fit-content;
+}   
+
+.icon3 {
+    background-color: #FBE5E6;
+    border-radius: 50%;
+    width: fit-content;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        margin-top: 60px;
+    }
 }
